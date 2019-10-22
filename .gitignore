@@ -1,0 +1,13 @@
+.DS_Store
+.svn
+._*
+*.tgz
+.Spotlight-V100
+.Trashes
+npm-debug.log
+node_modules
+coverage
+
+# Editor and IDE configuration
+.vscode/
+.idea/

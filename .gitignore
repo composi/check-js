@@ -9,5 +9,4 @@ node_modules
 coverage
 
 # Editor and IDE configuration
-.vscode/
 .idea/

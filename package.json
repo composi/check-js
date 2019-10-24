@@ -1,7 +1,7 @@
 {
   "name": "check-js",
   "description": "Function to merge objects together. Can take one to many object. If only one object is used, it is cloned. merge does deep cloning of objects.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "scripts": {
     "checkjs": "tsc --allowJs --checkJs --noEmit --moduleResolution node --target ES6 src/*.js",

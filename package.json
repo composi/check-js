@@ -1,7 +1,7 @@
 {
   "name": "check-js",
   "description": "Function to merge objects together. Can take one to many object. If only one object is used, it is cloned. merge does deep cloning of objects.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.js",
   "scripts": {
     "checkjs": "tsc --allowJs --checkJs --noEmit --moduleResolution node --target ES6 src/*.js",
@@ -32,14 +32,14 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.0",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^24.8.0",
-    "eslint": "^4.19.1",
-    "jest": "^24.8.0",
-    "prettier": "^1.15.3",
-    "typescript": "^3.0.3"
+    "babel-jest": "^25.4.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
   },
   "publishConfig": {
     "access": "public"
